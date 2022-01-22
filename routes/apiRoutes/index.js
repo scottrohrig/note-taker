@@ -1,18 +1,17 @@
 const path = require( 'path' );
 const router = require( 'express' ).Router();
 const { v4: uuid } = require( 'uuid' );
-const { createNewNote, validateNote, deleteById } = require( '../../lib/notes' );
-const { notes } = require( path.join( __dirname, '..', '..', 'db', 'db.json' ) );
-
-// console.log( path.join( __dirname, '..', '..', 'db', 'db.json' ) )
+const { readFromFile, createNewNote, validateNote, deleteById } = require( '../../lib/notes' );
 
 // get notes
 router.get( '/notes', ( req, res ) => {
+    const { notes } = readFromFile();
     res.json( notes );
 } );
 
 // post notes
 router.post( '/notes', ( req, res ) => {
+    const { notes } = readFromFile();
     // provide unique id
     req.body.id = uuid();
     // console.log( 'body', req.body );
