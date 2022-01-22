@@ -34,7 +34,7 @@ router.delete( '/notes/:id', ( req, res ) => {
     console.log( 'deleting note by id', req.params.id )
 
     // filter notes by id
-    deleteById( req.params.id, notes )
+    deleteById( req.params.id )
     res.json( { message: 'deleted' } );
 } );
 
