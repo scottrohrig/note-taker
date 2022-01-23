@@ -1,4 +1,3 @@
-const path = require( 'path' );
 const router = require( 'express' ).Router();
 const { v4: uuid } = require( 'uuid' );
 const { readFromFile, createNewNote, validateNote, deleteById } = require( '../../lib/notes' );
@@ -29,9 +28,6 @@ router.post( '/notes', ( req, res ) => {
 
 // delete note route
 router.delete( '/notes/:id', ( req, res ) => {
-    // validate id
-    console.log( 'deleting note by id', req.params.id )
-
     // filter notes by id
     deleteById( req.params.id )
     res.json( { message: 'deleted' } );
