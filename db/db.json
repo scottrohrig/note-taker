@@ -1,19 +1,19 @@
 {
   "notes": [
     {
-      "id": "b02bf5c1-569e-4b44-8df7-8ac0752ba657",
-      "title": "Second Note",
-      "text": "The Second Note's Text"
+      "title": "Stardate 43125.8",
+      "text": "Mission to binary star system\n\nCaptain's Log, Stardate 43125.8. We have entered a spectacular binary star system in the Kavis Alpha sector on a most critical mission of astrophysical research. Our eminent guest, Dr. Paul Stubbs, will attempt to study the decay of neutronium expelled at relativistic speeds from a massive stellar explosion which will occur here in a matter of hours.\"",
+      "id": "43952642-ece7-45c7-9f8b-a3587ae32e44"
     },
     {
-      "title": "Third Note",
-      "text": "Third Note's text",
-      "id": "639c7825-3eea-49ab-ba44-81ce5b6c170b"
+      "title": "Stardate 43152.4",
+      "text": "Distress call at Rana IV\n\"Captain's Log, Stardate 43152.4. We are cautiously entering the Delta Rana star system three days after receiving a distress call from the Federation colony on its fourth planet. The garbled transmission reported the colony under attack from an unidentified spacecraft. Our mission is one of rescue and, if necessary, confrontation with a hostile force.\"",
+      "id": "357b37b5-7da1-4a29-a8cd-b06e8fbd361d"
     },
     {
-      "title": "First Note",
-      "text": "First note's text content",
-      "id": "cd821e25-9917-493f-bd04-f77bea01cc1a"
+      "title": "Stardate 43173.5",
+      "text": "Mission to Mintaka III\n\"Captain's Log, Stardate 43173.5. We are en route to Mintaka III where a three-man Federation anthropological field team has been studying the inhabitants. Our mission is to resupply the outpost and repair their malfunctioning reactor.\"",
+      "id": "d7ff45a3-13d1-44b8-956d-5f7e2aa8bfb0"
     }
   ]
 }
