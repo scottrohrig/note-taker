@@ -1,7 +1,6 @@
 // html route handling
 const router = require( 'express' ).Router();
 const path = require( 'path' );
-const { runInNewContext } = require( 'vm' );
 const public = path.join( __dirname, '../', '../', 'public' );
 
 // root
